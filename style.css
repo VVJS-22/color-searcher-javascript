@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    height: 50px;
+    min-width: 500px;
+    max-width: 80%;
+    margin: 2rem 0.5rem;
+    border: 5px ridge rgb(10, 107, 34);
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    text-transform: capitalize;
+}
+
+#colors {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#color-div {
+    margin: 0.5rem;
+}
