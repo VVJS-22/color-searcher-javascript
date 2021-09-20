@@ -162,7 +162,7 @@ colors.map(color => {
 const filterColor = (name) => {
     const colorName = name.value;
     if(colorName) {
-        let filterColor = colors.filter(color => color.toLowerCase().includes(colorName));
+        let filterColor = colors.filter(color => color.toLowerCase().includes(colorName.toLowerCase()));
         colorDiv.innerHTML = "";
         filterColor.map(color => {
             div = document.createElement("div");
